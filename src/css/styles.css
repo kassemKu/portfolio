@@ -1,5 +1,6 @@
 @import "./normalize.css";
-
+@import "./global.css";
+@import "./framework.css";
 :root {
    --primary: #5E3BEE;
    --dribble: #E62872;
@@ -7,34 +8,19 @@
    --heading: #282938;
    --body:#1C1E53;
    /* spacing */
-     --0: 0px;
     --px: 1px;
       --0: 0px;
      --1: 0.25rem; /* 4px */
     --2: 0.5rem; /* 8px */
+    --4: 1rem; /* 16px */
+    --10: 2.5rem; /* 40px */
+    --12: 3rem; /* 48px */
     --20: 5rem; /* 80px */
-    /* height */
-    .h-1 {
-      height: calc(var(--1));
-      }
-      .h-2 {
-        height: calc(var(--2));
-        }
-        .h-20 {
-          height: var(--20);
-          }
+    --28: 7rem; /* 112px */
+    --32: 8rem; /* 128px */
+    --40: 10rem; /* 160px */
+    --rounded-btn: 12px;
 }
-html, body{
-   margin: 0;
-   padding: 0;
-   color: var(--body)
+.po-header{
+   box-shadow: 0 0 5px rgba(0,0,0, 0.1);
 }
-h1,h2,h3,h4,h5,h6{
-   color : var(--heading)
-}
- .text-primary{
-    color: var(--primary)
- }
- .po-nav{
-   background-color: red;
- }
