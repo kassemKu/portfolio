@@ -1,5 +1,17 @@
+@import "./normalize.css";
+
 :root {
    --primary: #5E3BEE;
+   --dribble: #E62872;
+   --muted: #f5fcff;
+   --heading: #282938;
+   --body:#1C1E53;
+}
+body{
+   color: var(--body)
+}
+h1,h2,h3,h4,h5,h6{
+   color : var(--heading)
 }
  .text-primary{
     color: var(--primary)
