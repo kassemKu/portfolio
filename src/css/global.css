@@ -1,3 +1,9 @@
+/* set the global values to do not repeat it */
+/* scrolling down smoothly not fast */
+html {
+   scroll-behavior: smooth;
+ }
+ 
 html, body{
     margin: 0;
     padding: 0;
@@ -14,4 +20,9 @@ html, body{
  a{
     text-decoration: none;
     color: var(--body);
+ }
+ .po-sec{
+ padding-left:var(--12) ;
+ padding-right:var(--12) ;
+ max-width: var(--full);
  }

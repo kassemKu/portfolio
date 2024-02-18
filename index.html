@@ -11,28 +11,74 @@
 <section class="po-inner">
   <!-- start header -->
   <header class="po-header h-28 flex items-center justify-between px-12">
-    <div class="po-header__logo">
-      <a href="/" class="po-logo__link">
-        <img src="./assets/imgs/Logologo.png" alt="portfolio" title="portfolio" class="po-logo__link__img h-10 w-40">
+    <!-- start logo -->
+    <div class="po-header__logo-container">
+      <a href="/" class="po-logo-container__link">
+        <img src="./assets/imgs/Logologo.png" alt="portfolio" title="portfolio" class="po-link__img h-10 w-40">
       </a>
     </div>
     <!-- end logo -->
+    <!-- start nav -->
     <nav class="po-header__nav">
-      <ul class="po-header__nav__list flex">
-        <li class="po-header__nav__list-item"><a href="/" class="po-header__nav__list-link btn">Home</a></li>
-        <li class="po-header__nav__list-item"><a href="/" class="po-header__nav__list-link btn">portfolio</a></li>
-        <li class="po-header__nav__list-item"><a href="/" class="po-header__nav__list-link btn">About me</a></li>
-        <li class="po-header__nav__list-item"><a href="/" class="po-header__nav__list-link btn">Testimonials</a></li>
+      <ul class="po-nav__nav-list flex">
+        <li class="po-nav-list__nav-item"><a href="#home" class="po-nav-list__nav-link btn">Home</a></li>
+        <li class="po-nav-list__nav-item"><a href="#portfolio" class="po-nav-list__nav-link btn">portfolio</a></li>
+        <li class="po-nav-list__nav-item"><a href="#about-me" class="po-nav-list__nav-link btn">About me</a></li>
+        <li class="po-nav-list__nav-item"><a href="#testimonials" class="po-nav-list__nav-link btn">Testimonials</a></li>
       </ul>
     </nav>
-    <div class="po-header__contact-btn">
-      <button class="btn btn-outline btn-primary">Contact me</button>
+    <!-- end nav -->
+    <!-- start button -->
+    <div class="po-header__contact-container">
+      <button class="po-contact__contact-btn btn btn-outline btn-primary">Contact me</button>
     </div>
+    <!-- end button -->
   </header>
   <!-- end header -->
-  <section></section>
-  <footer></footer>
+  <!-- start content section -->
+  <section class="po-content">
+    <div class="po-content__inner">
+       <!-- start home section -->
+      <section id="home" class="po-sec po-sec__home h-screen flex items-center justify-center bg-muted">
+        <div class="po-sec__home-text w-half">
+        <h3>Hey, I am ...</h3>
+        <h1>I create <span>product</span> design and brand experience</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+        <button>Get In Touch</button>
+        </div>
+        <div class="po-sec__home-img-container w-half">
+          <img src="./assets/imgs/avatar.png" alt="avatar" class="po-img-container__img">
+        </div>
+      </section>
+      <!-- end home section -->
+      <!-- start skill section -->
+      <section class="po-sec po-sec__.... h-screen flex items-center justify-center">
+        <div class="po-sec__...-header">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur, saepe. Enim corporis placeat cumque voluptate pariatur id odio, dolor esse nam impedit velit qui aliquid dolorum itaque sapiente distinctio veritatis.</div>
+        <div class="po-sec__....-img">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus harum quae consequatur illum illo dolorem aliquam iusto expedita quaerat eum!</div>
+      </section>
+      <!-- end skill section -->
+      <!-- start about me section -->
+      <section id="about-me" class="po-sec po-sec__about-me h-screen flex items-center justify-center bg-muted">
+        <div class="po-sec__home-header w-half">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur, saepe. Enim corporis placeat cumque voluptate pariatur id odio, dolor esse nam impedit velit qui aliquid dolorum itaque sapiente distinctio veritatis.</div>
+        <div class="po-sec__home-img-container w-half">
+          <img src="./assets/imgs/avatar.png" alt="avatar" class="po-img-container__img">
+        </div>
+      </section>
+      <!-- end about me section -->
+      <!-- start my portfolio section -->
+      <section class="po-sec po-sec__.... h-screen flex items-center justify-center">
+        <div class="po-sec__...-header">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur, saepe. Enim corporis placeat cumque voluptate pariatur id odio, dolor esse nam impedit velit qui aliquid dolorum itaque sapiente distinctio veritatis.</div>
+        <div class="po-sec__....-img">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus harum quae consequatur illum illo dolorem aliquam iusto expedita quaerat eum!</div>
+      </section>
+      <!-- end my portfolio section -->
+    </div>
+  </section>
+  <!-- end content section -->
+  <!-- start footer -->
+  <footer class="po-footer"></footer>
+  <!-- end footer -->
 </section>
   </main>
+  <SCRIPt src="./src/js/script.js"></SCRIPt>
   </body>
 </html>
