@@ -3,11 +3,5 @@
 @import "./normalize.css";
 @import "./global.css";
 @import "./framework.css";
-/*2- shadow for header */
-.po-header{
-   box-shadow: -2px -1px 20px 13px rgba(0, 0, 0, 0.10);
-}
-/* size of img container in content section */
-.po-img-container__img{
-   max-height: 630px;
-}
+@import "./header.css";
+@import "./home-section.css";
