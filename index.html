@@ -71,7 +71,7 @@
         </div>
         <div class="po-expertise__container grid grid-cols-4 gap-x-8 mb-18">
           <div class="po-skill po-box po-box-muted">
-            <div class="po-skill__card">
+            <div class="po-skill__img-cont">
               <div class="po-skill__img bg-white h-18 w-18 box-shadow flex items-center justify-center rounded mb-6">
                 <img src="./assets/imgs/product-chain 1 (1).png"class="po-skill-img h-12 w-12"></img> 
               </div>
@@ -84,7 +84,7 @@
             </div>
           </div>
           <div class="po-skill po-box po-box-muted">
-            <div class="po-skill__card">
+            <div class="po-skill__img-cont">
               <div class="po-skill__img bg-white h-18 w-18 box-shadow flex items-center justify-center rounded mb-6">
                 <img src="./assets/imgs/tag 1.png"class="po-skill-img h-12 w-12"></img> 
               </div>
@@ -97,7 +97,7 @@
             </div>
           </div>
           <div class="po-skill po-box po-box-muted">
-            <div class="po-skill__card">
+            <div class="po-skill__img-cont">
               <div class="po-skill__img bg-white h-18 w-18 box-shadow flex items-center justify-center rounded mb-6">
                 <img src="./assets/imgs/feather-pen 1.png"class="po-skill-img h-12 w-12"></img> 
               </div>
@@ -110,7 +110,7 @@
             </div>
           </div>
           <div class="po-skill po-box po-box-muted">
-            <div class="po-skill__card">
+            <div class="po-skill__img-cont">
               <div class="po-skill__img bg-white h-18 w-18 box-shadow flex items-center justify-center rounded mb-6">
                 <img src="./assets/imgs/feather-pen 1 (1).png"class="po-skill-img h-12 w-12"></img> 
               </div>
@@ -291,43 +291,43 @@
         </div>
         <div class="po-contact-container">
           <form class="po-contact-form flex flex-col w-full">
-            <div class="po-contact__name flex">
+            <div class="po-contact__name grid grid-cols-2 gap-x-12 w-full">
                 <div class="po-first-name">
-                  <label for="F-name" class="flex flex-col justify-between text-lg capitalize">First Name
-                     <input type="text" name="firstName" id="F-name" class="primary-border rounded h-10"/>                
+                  <label for="F-name" class="text-lg capitalize">First Name
+                     <input type="text" name="firstName" id="F-name" class="input input-primary w-full"/>                
                   </label>
                 </div>
                 <div class="po-last-name">
-                   <label for="L-name" class="flex flex-col text-lg capitalize">Last Name
-                     <input type="text" name="lastName" id="L-name" class="primary-border rounded " required/>
+                   <label for="L-name" class=" text-lg capitalize">Last Name
+                     <input type="text" name="lastName" id="L-name" class="input input-primary w-full" required/>
                    </label>
                 </div>
             </div>
-            <div class="po-email-number flex">
+            <div class="po-email-number grid grid-cols-2 gap-x-12 w-full">
               <div class="po-email">
-                 <label for="email-input" class="flex flex-col text-lg capitalize">email
-                   <input type="email" name="email" id="email-input" class="primary-border rounded" required/>
+                 <label for="email-input" class="text-lg capitalize">email
+                   <input type="email" name="email" id="email-input" class="input input-primary w-full" required/>
                  </label>
               </div>
               <div class="po-number">
-                 <label for="phone-input" class="flex flex-col text-lg capitalize"> phone number 
-                    <input type="number" name="phone" id="phone-input" class="primary-border rounded" required/>
+                 <label for="phone-input" class="text-lg capitalize"> phone number 
+                    <input type="number" name="phone" id="phone-input" class="input input-primary w-full" required/>
                  </label>
               </div>
             </div>
             <div class="”po-selection”">
-              <p>choose a topic</p>
-              <select id="dropdown" name="topic" class="text-lg capitalize">
-                <option value=""></option>
-                <option value=""></option>
-                <option value=""></option>
-                <option value=""></option>
-                <option value=""></option>
+              <p class="text-lg capitalize">choose a topic</p>
+              <select id="dropdown" name="topic" class="text-lg capitalize input-primary w-full h-12 rounded">
+                <option value="a" selected class="text-lg">select one...</option>
+                <option value="a"></option>
+                <option value="a"></option>
+                <option value="a"></option>
+                <option value="a"></option>
               </select>
             </div>
             <div class="po-message">
               <p class="text-lg capitalize">Message</p>
-              <textarea rows="5" cols="5"></textarea>
+              <textarea rows="5" cols="5" class="text-lg capitalize input-primary w-full rounded" placeholder="type your message"></textarea>
             </div>
             <div class="po-terms">
               <label for="terms" class="text-sm capitalize">
