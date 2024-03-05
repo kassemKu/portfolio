@@ -7,6 +7,7 @@
     --dribble: #E62872;
     --body: #1C1E53;
     --white: #fff;
+    --dark-muted: rgb(27, 169, 157);
     /* spacing */
     --0: 0;
     --1: 0.25rem; /*4px*/ 
@@ -105,11 +106,12 @@
     --94: 23.5rem; /*376px */
     --95: 23.75rem; /*380px */
     --96: 24rem; /* 384px */
+    
     --screen-h: 100vh;
     --screen-w: 100vw;
     --full: 100%;
     --half: 50%;
     --quart: 25%;
 
-   --rounded-btn: 4px;
+   --rounded-btn: 6px;
  }

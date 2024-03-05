@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>portfolio</title>
     <link rel="stylesheet" href="./src/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
@@ -18,7 +21,7 @@
 <section class="po-inner relative">
   <!-- start header -->
   <section class="po-sec po-sec__header p-0 absolute w-full bg-white">
-  <header class="po-header h-28 w-full flex items-center justify-between">
+  <header class="po-header h-25 w-full flex items-center justify-between">
     <!-- start logo -->
     <div class="po-header__logo-container pl-12">
       <a href="/" class="po-logo-container__link">
@@ -39,7 +42,7 @@
     <!-- end nav -->
     <!-- start button -->
     <div class="po-header__contact-container pr-12">
-      <a  href="#contact-me" class="po-contact__contact-btn btn btn-outline btn-primary">Contact me</a>
+      <a  href="#contact" class="po-contact__contact-btn btn btn-outline btn-primary">Contact me</a>
     </div>
     <!-- end button -->
   </header>
@@ -48,11 +51,11 @@
   <!-- start content section -->
   <section class="po-content">
        <!-- start home section -->
-      <section id="home" class="po-sec po-sec__home h-screen flex justify-center bg-muted items-center pt-36">
+      <section id="home" class="po-sec po-sec__home h-screen flex justify-center bg-muted items-center pt-24">
         <div class="po-sec__home-text w-half flex flex-col">
-            <span class="text-sm semibold">Hey, I am ...</span>
-            <h1 class="text-6xl">I create <span class="text-primary">product</span> design and brand experience</h1>
-            <p class="w-half leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+            <span class="text-lg bold mb-8 capitalize">Hey, I am ...</span>
+            <h1 class="text-6xl capitalize">I create <span class="text-primary">product</span> design and brand experience</h1>
+            <p class="w-half leading-relaxed text-lg">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
             <button class="btn btn-primary mt-8">Get In Touch</button>
         </div>
         <div class="po-sec__home-img-container w-half">
@@ -61,84 +64,84 @@
       </section>
       <!-- end home section -->
       <!-- start skill section -->
-      <section id="expertise" class="po-sec po-sec__expertise h-screen ">
-        <div class="po-expertise__title mb-16">
-          <span class="text-sm semibold">skills</span>
-          <h2 class="text-4xl capitalize">my expertise</h2>
+      <section id="expertise" class="po-sec po-sec__expertise h-screen flex flex-col justify-center">
+        <div class="po-expertise__title flex flex-col mb-32">
+          <span class="text-lg bold mb-8 capitalize">my skills</span>
+          <h2 class="text-5xl capitalize">my expertise</h2>
         </div>
-        <div class="po-expertise__container grid grid-cols-4 gap-x-8">
+        <div class="po-expertise__container grid grid-cols-4 gap-x-8 mb-18">
           <div class="po-skill po-box po-box-muted">
             <div class="po-skill__card">
-              <div class="po-skill__img bg-white h-16 w-16 flex items-center justify-center rounded mb-6">
-                <img src="./assets/imgs/product-chain 1 (1).png"class="po-skill-img h-8 w-8"></img> 
+              <div class="po-skill__img bg-white h-18 w-18 box-shadow flex items-center justify-center rounded mb-6">
+                <img src="./assets/imgs/product-chain 1 (1).png"class="po-skill-img h-12 w-12"></img> 
               </div>
             </div>
             <div class="po-skill__title">
-              <h3>strategy & direction </h3>
+              <h3 class="text-2xl bold mb- capitalize">strategy & direction </h3>
             </div>
             <div class="po-skill__text">
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, et?</p>
+              <p class="leading-relaxed text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, et?</p>
             </div>
           </div>
           <div class="po-skill po-box po-box-muted">
             <div class="po-skill__card">
-              <div class="po-skill__img bg-white h-16 w-16 flex items-center justify-center rounded mb-6">
-                <img src="./assets/imgs/tag 1.png"class="po-skill-img h-8 w-8"></img> 
+              <div class="po-skill__img bg-white h-18 w-18 box-shadow flex items-center justify-center rounded mb-6">
+                <img src="./assets/imgs/tag 1.png"class="po-skill-img h-12 w-12"></img> 
               </div>
             </div>
             <div class="po-skill__title">
-              <h3>branding & logo </h3>
+              <h3 class="text-2xl bold mb-8 capitalize">branding & logo </h3>
             </div>
             <div class="po-skill__text">
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, et?</p>
+              <p class="leading-relaxed text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, et?</p>
             </div>
           </div>
           <div class="po-skill po-box po-box-muted">
             <div class="po-skill__card">
-              <div class="po-skill__img bg-white h-16 w-16 flex items-center justify-center rounded mb-6">
-                <img src="./assets/imgs/feather-pen 1.png"class="po-skill-img h-8 w-8"></img> 
+              <div class="po-skill__img bg-white h-18 w-18 box-shadow flex items-center justify-center rounded mb-6">
+                <img src="./assets/imgs/feather-pen 1.png"class="po-skill-img h-12 w-12"></img> 
               </div>
               <div class="po-skill__title">
-                <h3>ui & ux design</h3>
+                <h3 class="text-2xl bold mb- capitalize">ui & ux design</h3>
               </div>
               <div class="po-skill__text">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, distinctio.</p>
+                <p class="leading-relaxed text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, distinctio.</p>
               </div>
             </div>
           </div>
           <div class="po-skill po-box po-box-muted">
             <div class="po-skill__card">
-              <div class="po-skill__img bg-white h-16 w-16 flex items-center justify-center rounded mb-6">
-                <img src="./assets/imgs/feather-pen 1 (1).png"class="po-skill-img h-8 w-8"></img> 
+              <div class="po-skill__img bg-white h-18 w-18 box-shadow flex items-center justify-center rounded mb-6">
+                <img src="./assets/imgs/feather-pen 1 (1).png"class="po-skill-img h-12 w-12"></img> 
               </div>
             </div>
             <div class="po-skill__title">
-              <h3>webflow development</h3>
+              <h3 class="text-2xl bold mb- capitalize">webflow development</h3>
             </div>
             <div class="po-skill__text">
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, et?</p>
+              <p class="leading-relaxed text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, et?</p>
             </div>
           </div>
         </div>
       </section>
       <!-- end skill section -->
       <!-- start about me section -->
-      <section id="about-me" class="po-sec po-sec__about-me h-screen flex">
-        <div class="po-img-container">
+      <section id="about-me" class="po-sec po-sec__about-me h-screen flex justify-center items-center">
+        <div class="po-img-container w-half">
           <figure class="po-img">
-            <img src="./assets/imgs/About Me.png" alt="an avatar" />
+            <img src="./assets/imgs/About Me.png" alt="an avatar" class="po-img-container__img w-screen"/>
           </figure>
         </div>
-        <div class="po-text-container">
-          <h3>About</h3>
-          <h2>About My</h2>
-          <p>
+        <div class="po-text-container w-half flex flex-col mb-32">
+          <span class="text-lg bold mb-8 capitalize">About</span>
+          <h2 class="text-5xl capitalize mb-6">About Me</h2>
+          <p class="leading-relaxed text-lg">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
             varius faucibus massa sollicitudin amet augue. Nibh metus a semper
             purus mauris duis. Lorem eu neque, tristique quis duis. Nibh
             scelerisque ac adipiscing velit non nulla in amet pellentesque.
           </p>
-          <p>
+          <p class="leading-relaxed text-lg">
             Sit turpis pretium eget maecenas. Vestibulum dolor mattis
             consectetur eget commodo vitae. Amet pellentesque sit pulvinar
             lorem mi a, euismod risus r.
@@ -147,60 +150,60 @@
       </section>
       <!-- end about me section -->
       <!-- start my portfolio section -->
-      <section id="portfolio" class="po-sec po-sec__portfolio h-screen flex">
-        <div class="po-portfolio__title flex">
-          <div class="po-title">
-            <h3>recent project</h3>
-            <h2>my portfolio</h2>
+      <section id="portfolio" class="po-sec po-sec__portfolio h-screen flex flex-col">
+        <div class="po-portfolio__title flex justify-between py-4">
+          <div class="po-title flex flex-col">
+            <span class="text-lg bold mb-8 capitalize">recent project</span>
+            <h2 class="text-5xl capitalize">my portfolio</h2>
           </div>
           <div class="po-dribble-btn">
-            <button>
+            <a href="/" class="btn btn-dribble">
               <i class="fa-solid fa-basketball"></i>
               visit my dribble
-            </button>
+            </a>
           </div>
         </div>
-        <div class="po-portfolio__projects flex">
-          <div class="po-projects__card w-quart">
-            <img src="./assets/imgs/po-protofolio.png" alt="" />
+        <div class="po-portfolio__projects flex justify-center grid-cols-3 gap-x-8 py-4">
+          <div class="po-projects__card po-box box-shadow">
+            <img src="./assets/imgs/po-protofolio.png" alt="" class="" />
             <div class="cont">
-              <h2>Ahuse</h2>
-              <p>
+              <h3 class="text-2xl bold mb- capitalize">Ahuse</h3>
+              <p class="leading-relaxed text-lg mb-6">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas,
                 sequi. Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Quas, sequi
               </p>
-              <a href="#">
+              <a href="#" class="text-lg bold mb-8 capitalize btn-link">
                 view in dribble
                 <i class="fa-solid fa-arrow-up"></i>
               </a>
             </div>
           </div>
-          <div class="po-projects__card w-quart">
+          <div class="po-projects__card po-box box-shadow">
             <img src="./assets/imgs/po-2.png" alt="" />
             <div class="cont">
-              <h2>Ahuse</h2>
-              <p>
+              <h3 class="text-2xl bold mb- capitalize">Ahuse</h3>
+              <p class="leading-relaxed text-lg mb-6">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas,
                 sequi. Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Quas, sequi
               </p>
-              <a href="#">
+              <a href="#" class="text-lg bold mb-8 capitalize btn-link">
                 view in dribble
                 <i class="fa-solid fa-arrow-up"></i>
               </a>
             </div>
           </div>
-          <div class="po-projects__card w-quart">
+          <div class="po-projects__card po-box box-shadow">
             <img src="./assets/imgs/po-3.png" alt="" />
             <div class="cont">
-              <h2>Ahuse</h2>
-              <p>
+              <h3 class="text-2xl bold mb- capitalize">Ahuse</h3>
+              <p class="leading-relaxed text-lg mb-6">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas,
                 sequi. Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Quas, sequi
               </p>
-              <a href="#">
+              <a href="#" class="text-lg bold mb-8 capitalize btn-link">
                 view in dribble
                 <i class="fa-solid fa-arrow-up"></i>
               </a>
@@ -210,63 +213,66 @@
       </section>
       <!-- end my portfolio section -->
       <!-- testimonials -->
-     <section id="testimonials" class="po-sec po-sec__testimonials h-screen  flex">
-      <div class="po-testimonial__title">
-        <span>clients feedback </span>
-        <h2>customer testimonials</h2>
+     <section id="testimonials" class="po-sec po-sec__testimonials h-screen  bg-muted flex-col pt-24">
+      <div class="po-testimonial__title flex flex-col py-4">
+        <span class="text-lg bold mb-8 capitalize">clients feedback </span>
+        <h2 class="text-5xl capitalize">customer testimonials</h2>
       </div>
-      <div class="po-testimonial__container">
-        <div class="po-feedback-card">
-          <div class="feedback__icon">
-            <i class="fa-regular fa-star"></i>
-            <i class="fa-regular fa-star"></i>
-            <i class="fa-regular fa-star"></i>
-            <i class="fa-regular fa-star"></i>
+      <div class="po-testimonial__container flex justify-center grid-cols-3 gap-x-8 py-4">
+        <div class="po-feedback-card po-box muted-border">
+          <div class="feedback__icon py-4">
+            <i class="fa-regular fa-star dark-muted"></i>
+            <i class="fa-regular fa-star dark-muted"></i>
+            <i class="fa-regular fa-star dark-muted"></i>
+            <i class="fa-regular fa-star dark-muted"></i>
+            <i class="fa-regular fa-star dark-muted"></i>
           </div>
-          <div class="feedback__text">
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus, velit?</p>
+          <div class="feedback__text py-4">
+            <p class="leading-relaxed text-lg"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus, velit?</p>
           </div>
-          <div class="feedback__person">
-            <div><img src="./assets/imgs/Avatar Image.png" alt="" class="po-person__im"></div>
-            <div class="po-person__name">
-              <span>sam sam</span>
-              <span>@fdghh</span>
+          <div class="feedback__person flex py-4 ">
+            <div><img src="./assets/imgs/Avatar Image.png" alt="" class="po-person__img h-16 w-16 rounded-full pr-5"></div>
+            <div class="po-person__name flex flex-col">
+              <span class="text-lg semibold">sam sam</span>
+              <span class="text-lg">@fdghh</span>
             </div>
           </div>
         </div>
-        <div class="po-feedback-card">
-          <div class="feedback__icon">
-            <i class="fa-regular fa-star"></i>
-            <i class="fa-regular fa-star"></i>
-            <i class="fa-regular fa-star"></i>
-            <i class="fa-regular fa-star"></i>
+        <div class="po-feedback-card po-box muted-border">
+          <div class="feedback__icon py-4">
+            <i class="fa-regular fa-star dark-muted"></i>
+            <i class="fa-regular fa-star dark-muted"></i>
+            <i class="fa-regular fa-star dark-muted"></i>
+            <i class="fa-regular fa-star dark-muted"></i>
+            <i class="fa-regular fa-star dark-muted"></i>
           </div>
-          <div class="feedback__text">
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus, velit?</p>
+          <div class="feedback__text py-4">
+            <p class="leading-relaxed text-lg">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus, velit?</p>
           </div>
-          <div class="feedback__person">
-            <div><img src="./assets/imgs/Avatar Image (1).png" alt="" class="po-person__im"></div>
-            <div class="po-person__name">
-              <span>sam sam</span>
-              <span>@fdghh</span>
+          <div class="feedback__person flex py-4">
+            <div><img src="./assets/imgs/Avatar Image (1).png" alt="" class="po-person__img h-16 w-16 rounded-full pr-5"></div>
+            <div class="po-person__name flex flex-col">
+              <span class="text-lg semibold">sam sam</span>
+              <span class="text-lg">@fdghh</span>
             </div>
           </div>
         </div>
-        <div class="po-feedback-card">
-          <div class="feedback__icon">
-            <i class="fa-regular fa-star"></i>
-            <i class="fa-regular fa-star"></i>
-            <i class="fa-regular fa-star"></i>
-            <i class="fa-regular fa-star"></i>
+        <div class="po-feedback-card po-box muted-border">
+          <div class="feedback__icon py-4">
+            <i class="fa-regular fa-star dark-muted"></i>
+            <i class="fa-regular fa-star dark-muted"></i>
+            <i class="fa-regular fa-star dark-muted"></i>
+            <i class="fa-regular fa-star dark-muted"></i>
+            <i class="fa-regular fa-star dark-muted"></i>
           </div>
-          <div class="feedback__text">
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus, velit?</p>
+          <div class="feedback__text py-4">
+            <p class="leading-relaxed text-lg">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus, velit?</p>
           </div>
-          <div class="feedback__person">
-            <div><img src="./assets/imgs/Avatar Image (2).png" alt="" class="po-person__im"></div>
-            <div class="po-person__name">
-              <span>sam sam</span>
-              <span>@fdghh</span>
+          <div class="feedback__person flex py-4">
+            <div><img src="./assets/imgs/Avatar Image (2).png" alt="" class="po-person__img h-16 w-16 rounded-full pr-5"></div>
+            <div class="po-person__name flex flex-col">
+              <span class="text-lg semibold">sam sam</span>
+              <span class="text-lg">@fdghh</span>
             </div>
           </div>
         </div>
@@ -274,46 +280,44 @@
      </section> 
       <!-- end testimonials -->
        <!-- start contact section omar -->
-       <section id="contact" class=" po-sec po-contact flex-col justify-center">
-        <div class="po-contact-title">
-          <span>get in touch</span>
-          <h2>contact me</h2>
-          <p>
+       <section id="contact" class="po-contact flex flex-col justify-center items-center pt-24">
+        <div class="po-contact-title flex flex-col justify-center items-center">
+          <span class="text-lg bold mb-8 capitalize">get in touch</span>
+          <h2 class="text-5xl capitalize">contact me</h2>
+          <p class="leading-relaxed text-lg py-5">
             "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet,
-            consectetur, adipisci velit..." "There is no one who loves pain
-            itself, who seeks after it and wants to have it, simply because it
-            is pain..."
+            consectetur, adipisci velit..."
           </p>
         </div>
         <div class="po-contact-container">
-          <form class="po-contact-form">
-            <div class="”po-contact__name”">
+          <form class="po-contact-form flex flex-col w-full">
+            <div class="po-contact__name flex">
                 <div class="po-first-name">
-                  <label for="F-name">First Name
-                     <input type="text" name="firstName" id="F-name" required/>                
+                  <label for="F-name" class="flex flex-col justify-between text-lg capitalize">First Name
+                     <input type="text" name="firstName" id="F-name" class="primary-border rounded h-10"/>                
                   </label>
                 </div>
                 <div class="po-last-name">
-                   <label for="L-name">Last Name
-                     <input type="text" name="lastName" id="L-name" required/>
+                   <label for="L-name" class="flex flex-col text-lg capitalize">Last Name
+                     <input type="text" name="lastName" id="L-name" class="primary-border rounded " required/>
                    </label>
                 </div>
             </div>
-            <div class="”po-email-number”">
+            <div class="po-email-number flex">
               <div class="po-email">
-                 <label for="email-input">email
-                   <input type="email" name="email" id="email-input" required/>
+                 <label for="email-input" class="flex flex-col text-lg capitalize">email
+                   <input type="email" name="email" id="email-input" class="primary-border rounded" required/>
                  </label>
               </div>
               <div class="po-number">
-                 <label for="phone-input"> phone number 
-                    <input type="number" name="phone" id="phone-input" required/>
+                 <label for="phone-input" class="flex flex-col text-lg capitalize"> phone number 
+                    <input type="number" name="phone" id="phone-input" class="primary-border rounded" required/>
                  </label>
               </div>
             </div>
             <div class="”po-selection”">
               <p>choose a topic</p>
-              <select id="dropdown" name="topic">
+              <select id="dropdown" name="topic" class="text-lg capitalize">
                 <option value=""></option>
                 <option value=""></option>
                 <option value=""></option>
@@ -321,18 +325,18 @@
                 <option value=""></option>
               </select>
             </div>
-            <div class="”po-message”">
-              <p>Message</p>
+            <div class="po-message">
+              <p class="text-lg capitalize">Message</p>
               <textarea rows="5" cols="5"></textarea>
             </div>
             <div class="po-terms">
-              <label for="terms">
+              <label for="terms" class="text-sm capitalize">
                 <input type="checkbox" id="terms">
                 I accept the terms 
               </label>
             </div>
-            <div class="”po-sub-btn”">
-              <button type="submit">submit</button>
+            <div class="po-sub-btn flex justify-center">
+              <button type="submit" class="btn btn-primary w-85">submit</button>
             </div>
           </form>
         </div>
@@ -341,55 +345,55 @@
   </section>
   <!-- end content section -->
   <!-- start footer -->
-  <footer class="po-footer bg-muted flex">
-    <div class="po-footer__nav">
+  <footer class="po-footer bg-muted po-header w-full flex flex-col mt-18 mb-18">
+    <div class="po-footer__nav flex items-center justify-between mt-16 mx-12 pb-8 border-bottom">
       <div class="po-footer__logo-container">
         <a href="/" class="po-logo-container__link">
           <img
             src="./assets/imgs/Logologo.png"
             alt="logo"
-            class="po-logo-container__link__img h-10 w-40"
+            class="po-logo-container__link__img h-8 w-40"
           />
         </a>
       </div>
       <nav class="po-footer__nav-container">
-        <ul class="po-nav__list">
+        <ul class="po-nav__list flex">
           <li class="po-list__item">
-            <a href="#home" class="po-list__limk btn btn-link">Home</a>
+            <a href="#home" class="po-list__link btn btn-link">home</a>
           </li>
           <li class="po-list__item">
-            <a href="#experties" class="po-list__limk">My Expertise</a>
+            <a href="#experties" class="po-list__link btn btn-link">My Expertise</a>
           </li>
           <li class="po-list__item">
-            <a href="#about-me" class="po-list__limk">About me</a>
+            <a href="#about-me" class="po-list__link btn btn-link">About me</a>
           </li>
           <li class="po-list__item">
-            <a href="#portfolio" class="po-list__limk">Portfolio</a>
+            <a href="#portfolio" class="po-list__link btn btn-link">Portfolio</a>
           </li>
           <li class="po-list__item">
-            <a href="#testimonials" class="po-list__limk">Testimonials</a>
+            <a href="#testimonials" class="po-list__link btn btn-link">Testimonials</a>
           </li>
           <li class="po-list__item">
-            <a href="#contact" class="po-btn-container__contact-btn">Contact Me</a>
+            <a href="#contact" class="po-btn-container__contact-btn btn btn-link">Contact Me</a>
           </li>
         </ul>
       </nav>
       <nav class="po-footer__icon-container">
         <ul>
-          <i class="fa-brands fa-facebook"></i>
-          <i class="fa-brands fa-square-instagram"></i>
-          <i class="fa-brands fa-twitter"></i>
-          <i class="fa-brands fa-linkedin"></i>
+          <a href="/" class="btn btn-link"><i class="fa-brands fa-facebook text-2xl"></i></a>
+          <a href="/" class="btn btn-link"><i class="fa-brands fa-square-instagram text-2xl"></i></a>
+          <a href="/" class="btn btn-link"><i class="fa-brands fa-twitter text-2xl"></i></a>
+          <a href="/" class="btn btn-link"><i class="fa-brands fa-linkedin text-2xl"></i></a>
         </ul>
       </nav>
     </div>
-    <div class="po-footer__policies">
-      <div class="po-footer__made"><p>made by...</p></div>
+    <div class="po-footer__policies mx-12 mb-12 flex justify-between">
+      <div class="po-footer__made"><p class="leading-relaxed text-base">made by...</p></div>
       <nav class="po-footer__nav-container">
-        <ul>
-          <i><a href="\">privacy policy</a></i>
-          <i><a href="\">terms of service</a></i>
-          <i><a href="\">cookies settings</a></i>
+        <ul class="flex justify-between">
+          <i><a href="\" class="btn btn-link text-base">privacy policy</a></i>
+          <i><a href="\" class="btn btn-link text-base">terms of service</a></i>
+          <i><a href="\" class="btn btn-link text-base">cookies settings</a></i>
         </ul>
       </nav>
     </div>

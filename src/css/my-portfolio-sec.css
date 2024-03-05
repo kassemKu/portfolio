@@ -1,0 +1,5 @@
+ .cont a i {
+     transform: rotate(40deg) translateY(20%);
+     font-size: var(--6);
+     padding-left: var(--1);
+ }
