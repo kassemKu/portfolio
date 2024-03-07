@@ -740,6 +740,9 @@ text-transform:capitalize;
 .p-0{
   padding: var(--0);
 }
+.p-2{
+  padding: var(--2);
+}
 .py-4{
   padding-top: var(--4);
   padding-bottom: var(--4);
